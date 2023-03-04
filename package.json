@@ -1,0 +1,26 @@
+{
+  "name": "akmhealthy-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulkareemm/AKMhealthy-server.git"
+  },
+  "author": "AKM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulkareemm/AKMhealthy-server/issues"
+  },
+  "homepage": "https://github.com/abdulkareemm/AKMhealthy-server#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
+    "nodemon": "^2.0.21"
+  }
+}
