@@ -14,4 +14,4 @@ app.use(require("./middleware/header"));
 require("./config/db/mongoose")(app);
 require("./config/routes/rout-handler")(app);
 
-app.listen(process.env.PORT, () => {console.log(process.env.PORT);});
+app.listen(5000, () => {console.log("5000");});
