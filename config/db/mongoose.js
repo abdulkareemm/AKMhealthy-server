@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 module.exports = async function (app) {
   try {
     console.log("Waiting for db connection ..");
-    let connection = await mongoose.connect(process.env.URL_DB_ONLINE, {
+    let connection = await mongoose.connect(process.env.URL_DB_LOCAL, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
